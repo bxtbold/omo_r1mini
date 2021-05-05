@@ -1,0 +1,5 @@
+<launch>
+  <!-- OMO R1 -->
+  <include file="$(find omo_r1mini_navigation)/launch/omo_r1mini_navigation.launch"/>
+  <include file="$(find omo_r1mini_navigation)/launch/omo_r1mini_navigation_rviz.launch"/>
+</launch>
